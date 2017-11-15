@@ -1,0 +1,25 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/* User can not select the tags with this class */
+.no-select{
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+/* Container */
+.container{
+	width: calc(100vw);
+	height: calc(100vh);
+	overflow-y: auto
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
